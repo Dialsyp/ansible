@@ -1,8 +1,7 @@
 ---
-- name: Hello World Example
-  hosts: localhost
-  gather_facts: false
+- name: Ping remote servers
+  hosts: DEV
   tasks:
-    - name: Display Hello World
-      debug:
-        msg: "Hello World!"
+    - name: Ping the servers
+      ping:
+    
