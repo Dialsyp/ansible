@@ -1,6 +1,9 @@
 ---
 - name: Ping remote servers
-  hosts: DEV 
+  hosts: DEV
   tasks:
     - name: Ping the servers
       ping:
+  vars:
+    ansible_user: "Developpeurs"
+    ansible_password: "Azerty12345689"
