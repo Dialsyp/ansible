@@ -1,8 +1,5 @@
 all:
   children:
-    jenkins:
-      hosts:
-        20.163.120.40:
     DEV:
       hosts:
         20.163.110.16:
