@@ -4,6 +4,4 @@
   tasks:
     - name: Ping the servers
       ping:
-  vars:
-    ansible_user: "Developpeurs"
-    ansible_password: "Azerty12345689"
+    
